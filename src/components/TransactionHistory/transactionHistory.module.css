@@ -1,12 +1,12 @@
 .transactionHistory {
-    width: 80%;
-    margin: 40px auto 20px;
-    border-collapse: collapse;
+    width: 100%;
+    margin: 40px auto;
+    border: 1px solid;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
   .tableTitle {
-    background-color: #f2f2f2;
+    background-color: #ddd;
   }
   
   .titleRow {
@@ -14,10 +14,9 @@
   }
   
   .titleCell {
-    padding: 12px;
+    padding: 16px;
     text-align: center;
-    border: 1px solid #ddd;
-    background-color: #18abc2;
+    background-color: blueviolet;
     color: #ffffff;
   }
   
