@@ -1,42 +1,9 @@
-.list {
-    display: flex;
-    gap: 20px;
-    flex-direction: column;
-    max-width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
-  }
-  
-  .item {
-    background-color: #fff;
-    border: 1px solid black;
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    align-items: center;
-    max-width: 300px;
-    padding-left: 30px;
-  }
-  
-  .item:hover,
-  .item:focus {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.342);
-  }
-  
-  .online {
-    height: 10px;
-    width: 10px;
-    border-radius: 50%;
-    background-color: green;
-  }
-  
-  .miss {
-    height: 10px;
-    width: 10px;
-    border-radius: 50%;
-    background-color: red;
-  }
-  .img {
-    width: 50px;
-  }
+.friend_list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}

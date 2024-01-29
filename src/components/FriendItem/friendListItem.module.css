@@ -1,0 +1,35 @@
+.item {
+    background-color: #fff;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    max-width: 300px;
+    padding-left: 30px;
+  }
+  
+  .item:hover,
+  .item:focus {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.342);
+  }
+  
+  .status {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+  }
+
+  .status_online {
+    background-color: green;
+    composes: status;
+  }
+  
+    .status_offline {
+      composes: status;
+    background-color: red;
+  }
+  
+  .img {
+    width: 50px;
+  }
